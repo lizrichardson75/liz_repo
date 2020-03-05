@@ -46,7 +46,7 @@ plot_ly() %>%
 ###############################################.    
 Sys.setlocale('LC_ALL', 'C')
 #setwd("C:/Users/elizabethr/Desktop/Triple I/nhs-triple-i_published260419/nhs-triple-i - June19edits/")
-iiidata <- data.frame(readRDS("./data/iii_correct_poundsign.RDS"))
+iiidata <- data.frame(readRDS("./data/big/iii_correct_poundsign.RDS"))
 
 #NEW June '19:
 iiidata$level[iiidata$type=="Undo"|
